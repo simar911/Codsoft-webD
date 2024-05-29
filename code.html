@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <title>JobsPlace</title>
+</head>
+<body>
+    <!--sidebar-->
+    <div class="sidebar">
+        <h1 class="logo">JobsPLace</h1>
+        <div class="menus">
+            <a href="#"><ion-icon name="Home-outline"></ion-icon>Home</a>
+            <a href="#"><ion-icon name="newspaper-outline"></ion-icon>Find Jobs</a>
+            <a href="#"><ion-icon name="stats-chart-outline"></ion-icon>Performance</a>
+            <a href="#"><ion-icon name="Bookmarks"></ion-icon>Bookmarks</a>
+            <a href="#"><ion-icon name="mail-unread-outline"></ion-icon>Message</a>
+            <a href="#"><ion-icon name="settings-outline"></ion-icon>Setting</a>
+        </div>
+        <div class="profile">
+            <img class="profile-img" src="images/icons8-male-user-96.png">
+            <div class="profile-name">
+                <h4>Simarjeet Singh</h4>
+                <p>Data Science</p>
+            </div>
+        </div>
+    </div>
+
+    <!--main-->
+    <div class="main">
+        <div class="main-header">
+            <ion-icon class="menu-bar" name="menu-outline"></ion-icon>
+            <div class="search">
+                <input type="text" placeholder="Search your best job here...">
+                <button class="btn-search"><ion-icon name="search-outline"></ion-icon></button>
+            </div>
+        </div>
+        <div class="filter-wrapper">
+            <p>Recommendation</p>
+            <div class="filter">
+                <button class="btn-filter">Data Science</button>
+                <button class="btn-filter">Data Engineer</button>
+                <button class="btn-filter">Data Analyst</button>
+                <button class="btn-filter">Product Analyst</button>
+                <button class="btn-filter">Data Visualization</button>
+                <button class="btn-filter">CRM Analyst</button>
+            </div>
+        </div>
+        <div class="sort">
+            <p>Sort</p>
+            <div class="sort-list">
+                <select>
+                    <option value="0">All</option>
+                    <option value="1">Newest Post</option>
+                    <option value="2">Oldest Post</option>
+                    <option value="3">Most Relevent</option>
+                    <option value="4">Highest Paid</option>
+                </select>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="card">
+                <div class="card-left blue-bg">
+                    <img src="images/icons8-google.svg">
+                </div>
+                <div class="card-center">
+                    <h3>Google</h3>
+                    <p class="card-detail">Data Science , Data Engineer</p>
+                    <p class="card-loc"><ion-icon name="location-outline"></ion-icon>79th Street Transverse</p>
+                    <div class="card-sub">
+                        <p><ion-icon name="today-outline"></ion-icon>1 mins ago</p>
+                        <p><ion-icon name="hourglass-outline"></ion-icon>Full-time</p>
+                        <p><ion-icon name="people-outline"></ion-icon>200 Applicants</p>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-tag">
+                        <h5>Division</h5>
+                        <a href="#">Data Engineer</a>
+                    </div>
+                    <div class="card-salary">
+                        <p><b>$350k</b><span>/year</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-left lime-bg">
+                    <img src="images/icons8-netflix.svg">
+                </div>
+                <div class="card-center">
+                    <h3>Netflix</h3>
+                    <p class="card-detail">Data Analyst , Product Analyst </p>
+                    <p class="card-loc"><ion-icon name="location-outline"></ion-icon>18 Ave-Street</p>
+                    <div class="card-sub">
+                        <p><ion-icon name="today-outline"></ion-icon>10 mins ago</p>
+                        <p><ion-icon name="hourglass-outline"></ion-icon>Full-time</p>
+                        <p><ion-icon name="people-outline"></ion-icon>170 Applicants</p>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-tag">
+                        <h5>Division</h5>
+                        <a href="#">Data Science</a>
+                    </div>
+                    <div class="card-salary">
+                        <p><b>$200k</b><span>/year</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-left red-bg">
+                    <img src="images/icons8-youtube.svg">
+                </div>
+                <div class="card-center">
+                    <h3>Youtube</h3>
+                    <p class="card-detail">Engineer , Product Analyst </p>
+                    <p class="card-loc"><ion-icon name="location-outline"></ion-icon>72th Grand-Street</p>
+                    <div class="card-sub">
+                        <p><ion-icon name="today-outline"></ion-icon>1 hour ago</p>
+                        <p><ion-icon name="hourglass-outline"></ion-icon>Full-time</p>
+                        <p><ion-icon name="people-outline"></ion-icon>350 Applicants</p>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-tag">
+                        <h5>Division</h5>
+                        <a href="#">Engineer ,  Product</a>
+                    </div>
+                    <div class="card-salary">
+                        <p><b>$485k</b><span>/year</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-left seagreen-bg">
+                    <img src="images/icons8-apple.svg">
+                </div>
+                <div class="card-center">
+                    <h3>Apple</h3>
+                    <p class="card-detail">IOS Developer</p>
+                    <p class="card-loc"><ion-icon name="location-outline"></ion-icon>8 Ave</p>
+                    <div class="card-sub">
+                        <p><ion-icon name="today-outline"></ion-icon>40 mins ago</p>
+                        <p><ion-icon name="hourglass-outline"></ion-icon>Full-time</p>
+                        <p><ion-icon name="people-outline"></ion-icon>230 Applicants</p>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-tag">
+                        <h5>Division</h5>
+                        <a href="#">Developer</a>
+                    </div>
+                    <div class="card-salary">
+                        <p><b>$265k</b><span>/year</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-left yellow-bg">
+                    <img src="images/icons8-amazon.svg">
+                </div>
+                <div class="card-center">
+                    <h3>Amazon</h3>
+                    <p class="card-detail">Cloud Architect</p>
+                    <p class="card-loc"><ion-icon name="location-outline"></ion-icon>45 Rd - Court House Sq</p>
+                    <div class="card-sub">
+                        <p><ion-icon name="today-outline"></ion-icon>2 hours ago</p>
+                        <p><ion-icon name="hourglass-outline"></ion-icon>Full-time</p>
+                        <p><ion-icon name="people-outline"></ion-icon>386 Applicants</p>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-tag">
+                        <h5>Division</h5>
+                        <a href="#">AWS Engineer</a>
+                    </div>
+                    <div class="card-salary">
+                        <p><b>$415k</b><span>/year</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--right section: detail jobs-->
+    <div class="detail">
+        <ion-icon class="close-detail" name="close-outline"></ion-icon>
+        <div class="detail-header">
+            <img src="images/icons8-google.svg">
+            <h2>Google</h2>
+            <p>Data Science</p>
+        </div>
+        <hr class="divider">
+        <div class="detail-desc">
+            <div class="about">
+                <h4>About Company</h4>
+                <p>Google is an internet search engine that uses a proprietary algorithm to retrieve and order search results. Its mission is to “organize the world’s information and make it universally accessible and useful.”</p>
+                <a href="#">Read More</a>
+            </div>
+            <hr class="divider">
+            <div class="qualification">
+                <h4>Qualification</h4>
+                <ul>
+                    <li>Bachelor’s Degree in a Quantitative Field</li>
+                    <li>Experience with Data Warehouses and Distributed Data Platforms</li>
+                    <li>Ability to Navigate Ambiguity and Work in a Fast-Moving Environment</li>
+                </ul>
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="detail-btn">
+            <button class="btn-apply">Apply Now</button>
+            <button class="btn-save">Save Job</button>
+        </div>
+        <hr class="divider">
+
+        <ion-icon class="close-detail" name="close-outline"></ion-icon>
+        <div class="detail-header">
+            <img src="images/icons8-youtube.svg">
+            <h2>Youtube</h2>
+            <p>Product Analyst</p>
+        </div>
+        <hr class="divider">
+        <div class="detail-desc">
+            <div class="about">
+                <h4>About Company</h4>
+                <p>A YouTube product analyst is responsible for analyzing data related to the company's video platform and its users. This data can include information about user engagement, content performance, and revenue generation. The analyst uses statistical methods and data visualization tools to extract insights from this data, helping the company to make informed decisions about product development, feature prioritization, and user experience. </p>
+                <a href="#">Read More</a>
+            </div>
+            <hr class="divider">
+            <div class="qualification">
+                <h4>Qualification</h4>
+                <ul>
+                    <li>Bachelor’s Degree in a Quantitative Field</li>
+                    <li>Experience with Data Warehouses and Distributed Data Platforms</li>
+                    <li>Ability to Navigate Ambiguity and Work in a Fast-Moving Environment</li>
+                </ul>
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="detail-btn">
+            <button class="btn-apply">Apply Now</button>
+            <button class="btn-save">Save Job</button>
+        </div>
+        <hr class="divider">
+
+        <ion-icon class="close-detail" name="close-outline"></ion-icon>
+        <div class="detail-header">
+            <img src="images/icons8-netflix.svg">
+            <h2>Netflix</h2>
+            <p>Data Analyst</p>
+        </div>
+        <hr class="divider">
+        <div class="detail-desc">
+            <div class="about">
+                <h4>About Company</h4>
+                <p>A Netflix data analyst is responsible for analyzing large volumes of data generated by the company's streaming service. This data can include information about viewer behavior, content popularity, and usage patterns. The analyst uses statistical methods and data visualization tools to extract insights from this data, helping the company to make informed decisions about content acquisition, production, and marketing. </p>
+                <a href="#">Read More</a>
+            </div>
+            <hr class="divider">
+            <div class="qualification">
+                <h4>Qualification</h4>
+                <ul>
+                    <li>Bachelor’s Degree in a Quantitative Field</li>
+                    <li>Experience with Data Warehouses and Distributed Data Platforms</li>
+                    <li>Ability to Navigate Ambiguity and Work in a Fast-Moving Environment</li>
+                </ul>
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="detail-btn">
+            <button class="btn-apply">Apply Now</button>
+            <button class="btn-save">Save Job</button>
+        </div>
+        <hr class="divider">
+
+        <ion-icon class="close-detail" name="close-outline"></ion-icon>
+        <div class="detail-header">
+            <img src="images/icons8-apple.svg">
+            <h2>Apple</h2>
+            <p>IOS Developer</p>
+        </div>
+        <hr class="divider">
+        <div class="detail-desc">
+            <div class="about">
+                <h4>About Company</h4>
+                <p>An iOS developer designs, develops, and maintains mobile applications for Apple devices (such as iPad, iPhone, Apple Watch, and Apple TV).
+                They build, test, and adjust apps using programming languages like Objective-C or Swift.</p>
+                <a href="#">Read More</a>
+            </div>
+            <hr class="divider">
+            <div class="qualification">
+                <h4>Qualification</h4>
+                <ul>
+                    <li>Bachelor’s Degree in a Quantitative Field</li>
+                    <li>Experience with Data Warehouses and Distributed Data Platforms</li>
+                    <li>Ability to Navigate Ambiguity and Work in a Fast-Moving Environment</li>
+                </ul>
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="detail-btn">
+            <button class="btn-apply">Apply Now</button>
+            <button class="btn-save">Save Job</button>
+        </div>
+        <hr class="divider">
+
+        <ion-icon class="close-detail" name="close-outline"></ion-icon>
+        <div class="detail-header">
+            <img src="images/icons8-amazon.svg">
+            <h2>Amazon</h2>
+            <p>Cloud Engineer</p>
+        </div>
+        <hr class="divider">
+        <div class="detail-desc">
+            <div class="about">
+                <h4>About Company</h4>
+                <p>AWS establishes its own global network infrastructure with data centers in various regions worldwide. Users can create secure environments using Amazon VPCs (Virtual Private Clouds). Essential services like Amazon EC2 (Elastic Compute Cloud) and Amazon S3 allow for elastic scaling of compute and storage resources.</p>
+                <a href="#">Read More</a>
+            </div>
+            <hr class="divider">
+            <div class="qualification">
+                <h4>Qualification</h4>
+                <ul>
+                    <li>Bachelor’s Degree in a Quantitative Field</li>
+                    <li>Experience with Data Warehouses and Distributed Data Platforms</li>
+                    <li>Ability to Navigate Ambiguity and Work in a Fast-Moving Environment</li>
+                </ul>
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="detail-btn">
+            <button class="btn-apply">Apply Now</button>
+            <button class="btn-save">Save Job</button>
+        </div>
+        <hr class="divider">
+    </div>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="app.js"></script>
+</html>
